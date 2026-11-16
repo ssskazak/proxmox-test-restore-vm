@@ -33,6 +33,6 @@ Edit the configuration variables at the top of `backup.sh` to match your environ
 ```bash
 TEST_VMID="999"                      # Temporary VM ID used for the restore test
 STORAGE_ID="pbs_stor_bkp"            # Proxmox storage ID where backups are kept
-TARGET_STORAGE="NFS_SA3400d_r10"     # Target storage where the test VM will be built
+TARGET_STORAGE="stor_for_restore"     # Target storage where the test VM will be built
 TIMEOUT_SECONDS=180                  # Time to wait for the guest agent to respond (seconds)
 EMAIL_TO="admins@yourdomain.com"     # Notification recipient
